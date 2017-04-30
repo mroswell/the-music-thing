@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+	<html class="sl-root decks export offline loaded">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>The Music Thing: Slides</title>
+		<meta name="description" content="Slides">
+
+		<link rel="stylesheet" type="text/css" href="lib/offline-v2.css">
+
+
+
+	</head>
+	<body class="reveal-viewport theme-font-montserrat theme-color-white-blue">
+		<div class="reveal">
+			<div class="slides">
+				<section data-id="a9be93715d8bc2979568f40daf486e28"><div class="sl-block" data-block-type="text" style="width: 806px; left: 77px; top: 238px; height: auto;" data-block-id="e22d4a7f6032682008cbcd27339210fa"><div class="sl-block-content" data-placeholder-tag="h1" data-placeholder-text="Title Text" style="z-index: 10;">
+<h1>Title Text</h1>
+</div></div>
+<div class="sl-block" data-block-type="image" data-block-id="fecc907ff5e8c5897927158df5c059a5" style="min-width: 30px; min-height: 30px; width: 959px; height: 474px; left: 0px; top: 70px;"><div class="sl-block-content" style="z-index: 12;"><img data-natural-width="1612" data-natural-height="796" style="" data-src="the-music-thing/467fb7e86cec9e3d4cb84c6b6335a4b2.png"></div></div></section><section data-id="0523f432e2ddb41604534d805da2d0d9"><div class="sl-block" data-block-type="iframe" data-block-id="2acfbf8e44930b31e7ce00cd290db34b" style="min-width: 30px; min-height: 30px; width: 960px; height: 564px; left: 0px; top: 37px;">
+    <div class="sl-block-content" style="z-index: 11;">
+        <iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock" data-src="https://www.google.com/"></iframe>
+    </div>
+</div></section>
+			</div>
+		</div>
+
+		<script>
+			var SLConfig = {"deck": {"id":992289,"slug":"the-music-thing","title":"The Music Thing","description":"","width":960,"height":700,"visibility":"self","published_at":null,"sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/65e25689c284f11909dfefa2b851106a/thumb.jpg","view_count":0,"user":{"id":87131,"username":"marjorieroswell","name":"Marjorie Roswell","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-0YaHgQamejY/AAAAAAAAAAI/AAAAAAAAAAA/qSEmzAyPvSY/photo.jpg","paid":true,"pro":false,"lite":true,"team_id":null,"settings":{"id":21920,"present_controls":true,"present_upsizing":true,"present_pointer":false,"present_notes":false}},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":false,"rolling_links":false,"center":false,"should_loop":false,"share_notes":false,"slide_number":false,"rtl":false,"version":2,"collaborative":null,"deck_user_editor_limit":1,"data_updated_at":1493522642604,"font_typekit":null,"font_google":null,"notes":{}}};
+
+
+			// Use local fonts
+			SLConfig.fonts_url = 'lib/fonts/';
+		</script>
+
+		<script src="lib/head.min.js"></script>
+		<script src="lib/reveal.min.js"></script>
+		<script src="lib/offline.js"></script>
+
+		<!-- Initialize the presentation -->
+		<script>
+			Reveal.initialize({
+				"reveal-leap-motion": {
+          naturalSwipe: false,     // Invert swipe gestures
+          pointerColor: '#d80000', // Red pointer
+          pointerOpacity: 0.0,     // Set pointer opacity to 0.5
+        },
+				width: 960,
+				height: 700,
+				margin: 0.05,
+
+				controls: true,
+				progress: true,
+				history: true,
+				mouseWheel: false,
+				showNotes: false,
+				slideNumber: false,
+
+				autoSlide: 0 || 0,
+				autoSlideStoppable: true,
+
+				center: false,
+				loop: false,
+				rtl: false,
+
+				transition: "slide",
+				backgroundTransition: "slide",
+
+				dependencies: [
+					{ src: 'lib/reveal-plugins/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
+					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/reveal-leap-motion.min.js', async: true }
+
+				]
+			});
+		</script>
+
+		
+
+	</body>
+</html>
