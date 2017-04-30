@@ -45,8 +45,39 @@
 					<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
 						<p><span style="font-size:1.2em">The Conductor</span></p>
 					</div>
-				</div>
 			</section>
+			<section data-id="0523f432e2ddb41604534d805da2d0d9">
+				<div class="sl-block" data-block-type="iframe" data-block-id="2acfbf8e44930b31e7ce00cd290db34b"
+						 style="min-width: 30px; min-height: 30px; width: 960px; height: 526px; left: 0px; top: 94px;">
+					<div class="sl-block-content" style="z-index: 11;">
+						<iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""
+										sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock"
+										data-src="https://plucky-daughter.surge.sh/synth.html" src="https://plucky-daughter.surge.sh/synth.html"></iframe>
+					</div>
+				</div>
+				<div class="sl-block" data-block-type="text" data-block-id="c057a0ce52973d23ae5337f0341dfd50"
+						 style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 148px; top: 38px;">
+					<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+						<p><span style="font-size:1.2em">The Soloist</span></p>
+					</div>
+			</section>
+			<section data-id="0523f432e2ddb41604534d805da2d0d9">
+				<div class="sl-block" data-block-type="iframe" data-block-id="2acfbf8e44930b31e7ce00cd290db34b"
+						 style="min-width: 30px; min-height: 30px; width: 960px; height: 526px; left: 0px; top: 94px;">
+					<div class="sl-block-content" style="z-index: 11;">
+						<iframe webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""
+										sandbox="allow-forms allow-scripts allow-popups allow-same-origin allow-pointer-lock"
+										data-src="https://plucky-daughter.surge.sh/wubwubwub.html" src="https://plucky-daughter.surge.sh/wubwubwub.html"></iframe>
+					</div>
+				</div>
+				<div class="sl-block" data-block-type="text" data-block-id="c057a0ce52973d23ae5337f0341dfd50"
+						 style="height: auto; min-width: 30px; min-height: 30px; width: 600px; left: 148px; top: 38px;">
+					<div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Text" style="z-index: 12;">
+						<p><span style="font-size:1.2em">The Soloist</span></p>
+					</div>
+			</section>
+
+				</div>
 		</div>
 	</div>
 
@@ -65,11 +96,11 @@
 		<!-- Initialize the presentation -->
 		<script>
 			Reveal.initialize({
-				"reveal-leap-motion": {
-          naturalSwipe: false,     // Invert swipe gestures
-          pointerColor: '#d80000', // Red pointer
-          pointerOpacity: 0.0,     // Set pointer opacity to 0.5
-        },
+//				"reveal-leap-motion": {
+//          naturalSwipe: false,     // Invert swipe gestures
+//          pointerColor: '#d80000', // Red pointer
+//          pointerOpacity: 0.0,     // Set pointer opacity to 0.5
+//        },
 				width: 960,
 				height: 700,
 				margin: 0.05,
@@ -96,7 +127,7 @@
 					{ src: 'lib/reveal-plugins/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
 					{ src: 'lib/reveal-plugins/highlight/highlight.js', async: true, callback: function() { hljs.initHighlighting(); hljs.initHighlightingOnLoad(); } },
 					{ src: 'lib/reveal-plugins/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } },
-					{ src: 'plugin/reveal-leap-motion.min.js', async: true }
+//					{ src: 'plugin/reveal-leap-motion.min.js', async: true }
 
 				]
 			});
